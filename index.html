@@ -36,9 +36,9 @@
 
         <fieldset>
             <label>Would you recommed freeCodeCamp to a friend?</label>
-            <label><input type="radio" name="recommend" class="recommend--to" required /> Definitely</label>
-            <label><input type="radio" name="recommend" class="recommend--to" required /> Maybe</label>
-            <label><input type="radio" name="recommend" class="recommend--to" required /> Not sure</label>
+            <label><input type="radio" name="recommend" class="recommend--to"/> Definitely</label>
+            <label><input type="radio" name="recommend" class="recommend--to"/> Maybe</label>
+            <label><input type="radio" name="recommend" class="recommend--to"/> Not sure</label>
         </fieldset>
 
         <fieldset>
@@ -49,9 +49,29 @@
                     <option value="2">Projects</option>
                     <option value="3">Community</option>
                     <option value="4">Open Source</option>
+                </select>
+            </label>
         </fieldset>
 
-        
+        <fieldset>
+            <label>What would you like to see improved? <span class="clue">(Check all that apply)</span></label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Front-end Projects</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Back-end Projects</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Data Visualization</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Challenges</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Open Source Community</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Gitter help rooms</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Videos</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> City Meetups</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Wiki</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Forum</label>
+            <label><input type="checkbox" name="improved" class="improved--on" /> Additional Courses</label>
+        </fieldset>
 
+        <fieldset>
+            <label>Any comments or suggestions? <input type="textarea" placeholder="Enter your comment here... "/></label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
 </body>
 </html>
